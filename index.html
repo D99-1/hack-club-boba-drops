@@ -6,8 +6,45 @@
     <title>Boba Drops</title>
 </head>
 <body>
-    <h1> This is my site </h1>
-    <h2> Welcome to my site </h2>
-    <img src="imageURL"/>
+    <h1>This is my site for Boba Drops</h1>
+    <h2>Welcome to my site</h2>
+    <p>You can also add small text like this</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPLpLzDuJvBaUcKWDqVkyttl2gqEhoOr9EHg&s"/>
+    <p>and images!</p>
+    <br>
+    <br>
+    <h3>Once you are done your website, host it on github and submit it <a href="https://hack.af/boba-workshop">here!</a></h3>
+    <style>
+        body{
+            background-color: #b89f78;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        img{
+            border-radius: 100%;
+            height: 200px;
+            width: 200px;;
+            object-fit: cover;
+        }
+
+        img:hover{
+            animation: rotate 4s linear infinite;
+        }
+
+        @keyframes rotate{
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </body>
 </html>
